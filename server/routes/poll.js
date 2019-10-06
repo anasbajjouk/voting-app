@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const handle = require('../handlers');
-const auth = require('../middleswares/auth');
+const auth = require('../middleware/auth');
 
 router
   .route('/')
