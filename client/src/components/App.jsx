@@ -7,6 +7,7 @@ import api from '../services/api';
 
 class App extends Component {
   componentDidMount() {
+    //fetch()
     const result = api.call('post', 'auth/login', {
       username: 'username',
       password: 'password',
